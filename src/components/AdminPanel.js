@@ -3,7 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { 
   FiX, FiPlus, FiTrash2, FiEdit2, FiSave, 
   FiUpload, FiDownload, FiRefreshCw, FiSettings,
-  FiImage, FiType, FiLayout, FiDroplet
+  FiLayout, FiDroplet
 } from 'react-icons/fi';
 import { useConfig } from '../context/ConfigContext';
 
@@ -48,10 +48,7 @@ function AdminPanel({ isOpen, onClose }) {
     }
   };
 
-  const handleUpdateSlide = (slideId, updates) => {
-    updateSlide(slideId, updates);
-    setEditingSlide(null);
-  };
+  // ... existing code ...
 
   const handleImport = (e) => {
     const file = e.target.files[0];
