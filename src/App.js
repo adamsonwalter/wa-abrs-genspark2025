@@ -222,6 +222,7 @@ function App() {
             {visibleSlides.map((slide, index) => (
               <SlideObserver 
                 key={slide.id} 
+                slide={slide}
                 index={index}
                 onInView={() => setCurrentSlide(index)}
               >
@@ -276,7 +277,7 @@ function App() {
 }
 
 // Slide observer component for intersection detection
-function SlideObserver({ children, index, onInView }) {
+function SlideObserver({ children, slide, index, onInView }) {
   const { ref } = useInView({
     threshold: 0.5,
     onChange: (inView) => {
@@ -285,7 +286,7 @@ function SlideObserver({ children, index, onInView }) {
   });
 
   return (
-    <div ref={ref} id={`slide-${index}`} className="scroll-mt-24">
+    <div ref={ref} id={slide.id} className="scroll-mt-24">
       {children}
     </div>
   );

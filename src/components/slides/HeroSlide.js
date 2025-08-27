@@ -68,7 +68,14 @@ function HeroSlide({ slide, inView, isFullscreen }) {
                     if (action.action === 'link' && action.url) {
                       window.open(action.url, '_blank');
                     } else if (action.action === 'next-slide') {
-                      document.getElementById('slide-1')?.scrollIntoView({ behavior: 'smooth' });
+                      // Find the next slide based on current slide position
+                      const currentSlideIndex = window.location.hash ? 
+                        parseInt(window.location.hash.replace('#slide-', '')) : 1;
+                      const nextSlideId = `slide-${currentSlideIndex + 1}`;
+                      const nextSlideElement = document.getElementById(nextSlideId);
+                      if (nextSlideElement) {
+                        nextSlideElement.scrollIntoView({ behavior: 'smooth' });
+                      }
                     }
                   }}
                   className={`px-6 py-3 rounded-lg font-medium transition-all flex items-center gap-2 ${
