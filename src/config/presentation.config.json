@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Retragreen Proptech\nHVAC+",
+    "title": "Retragreen Proptech /n HVAC+",
     "version": "2.0.0",
     "author": "Retragreen Team",
     "date": "2025-08-27",
-    "company": "Retragreen",
+    "company": "Beyond The BMS",
     "logo": "https://page.gensparksite.com/v1/base64_upload/1caff34759ddb2bbcb787fffa13533c3",
     "logoAlt": "Retragreen Logo"
   },
@@ -61,7 +61,7 @@
         },
         {
           "text": "Contact",
-          "url": "mailto:info@retrageen.com.au",
+          "url": "mailto:walter@retrageen.com.au",
           "icon": "email"
         }
       ]
@@ -126,13 +126,13 @@
       "id": "slide-2",
       "type": "hero",
       "title": "What is HVAC+",
-      "subtitle": "Large, complex, beyong the BMS",
+      "subtitle": "Large, complex, beyond the BMS",
       "content": {
         "text": "Software that optimizes HVAC for maximum efficiency and savings.",
         "bullets": [
-          "Air side and Water Side",
-          "Critical Zones and complex Header(matrix) chillers",
-          "People"
+          "Air Side and Water Side",
+          "Critical Zones and complex Header(matrix) Chillers",
+          "Demand Response (coming end 2025)"
         ]
       },
       "media": {
