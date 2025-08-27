@@ -43,18 +43,4 @@ root.render(
   </React.StrictMode>
 );
 
-// Report web vitals
-if (process.env.NODE_ENV === 'development') {
-  // Optional: Log performance metrics
-  const reportWebVitals = (metric) => {
-    console.log('Performance:', metric);
-  };
-  
-  import('web-vitals').then(({ getCLS, getFID, getFCP, getLCP, getTTFB }) => {
-    getCLS(reportWebVitals);
-    getFID(reportWebVitals);
-    getFCP(reportWebVitals);
-    getLCP(reportWebVitals);
-    getTTFB(reportWebVitals);
-  });
-}
+// Performance monitoring removed for simplicity
