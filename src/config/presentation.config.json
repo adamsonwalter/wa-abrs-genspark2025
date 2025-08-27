@@ -111,7 +111,7 @@
           "text": "Get Free Assessment",
           "type": "secondary",
           "action": "link",
-          "url": "#slide-6"
+          "url": "#slide-7"
         }
       ],
       "tags": ["intro"],
@@ -124,6 +124,46 @@
     
     {
       "id": "slide-2",
+      "type": "hero",
+      "title": "HVAC Opex Optimisation",
+      "subtitle": "We focus on reducing Opex",
+      "content": {
+        "text": "Revolutionary AI software that optimizes HVAC+ systems for maximum efficiency and savings.",
+        "bullets": [
+          "Energy",
+          "Maintenance",
+          "People"
+        ]
+      },
+      "media": {
+        "type": "image",
+        "src": "https://page.gensparksite.com/v1/base64_upload/1caff34759ddb2bbcb787fffa13533c3",
+        "alt": "Retragreen Logo",
+        "position": "center"
+      },
+      "actions": [
+        {
+          "text": "Learn More",
+          "type": "primary",
+          "action": "next-slide"
+        },
+        {
+          "text": "Get Free Assessment",
+          "type": "secondary",
+          "action": "link",
+          "url": "#slide-7"
+        }
+      ],
+      "tags": ["intro"],
+      "animation": "fade-in",
+      "background": {
+        "type": "gradient",
+        "colors": ["#D8E8C8", "#FFFFFF"]
+      }
+    },
+    
+    {
+      "id": "slide-3",
       "type": "stats",
       "title": "What You Get",
       "subtitle": "Proven Results & Immediate Impact",
@@ -161,7 +201,7 @@
     },
     
     {
-      "id": "slide-3",
+      "id": "slide-4",
       "type": "feature",
       "title": "Built for Operational Efficiency",
       "subtitle": "Comprehensive System Optimization",
@@ -205,7 +245,7 @@
     },
     
     {
-      "id": "slide-4",
+      "id": "slide-5",
       "type": "standard",
       "title": "Where and Who",
       "subtitle": "Proven Experience & Recognition",
@@ -232,7 +272,7 @@
     },
     
     {
-      "id": "slide-5",
+      "id": "slide-6",
       "type": "demo",
       "title": "Real-Time Intelligence",
       "subtitle": "See Our AI in Action",
@@ -267,7 +307,7 @@
     },
     
     {
-      "id": "slide-6",
+      "id": "slide-7",
       "type": "cta",
       "title": "Your Free Assessment",
       "subtitle": "5-Day Analytics Report - $2,495 Value",
