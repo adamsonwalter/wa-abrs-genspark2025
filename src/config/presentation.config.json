@@ -88,7 +88,7 @@
       "title": "HVAC Opex Optimisation",
       "subtitle": "We focus on reducing Opex",
       "content": {
-        "text": "software that optimizes HVAC for maximum efficiency and savings.",
+        "text": "Software that optimizes HVAC for maximum efficiency and savings:",
         "bullets": [
           "Energy",
           "Maintenance",
@@ -125,13 +125,13 @@
     {
       "id": "slide-2",
       "type": "hero",
-      "title": "HVAC Opex Optimisation",
-      "subtitle": "We focus on reducing Opex",
+      "title": "What is HVAC+",
+      "subtitle": "Large, complex, beyong the BMS",
       "content": {
         "text": "Software that optimizes HVAC for maximum efficiency and savings.",
         "bullets": [
-          "Energy",
-          "Maintenance",
+          "Air side and Water Side",
+          "Critical Zones and complex Header(matrix) chillers",
           "People"
         ]
       },
