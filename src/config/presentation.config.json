@@ -1,0 +1,347 @@
+{
+  "metadata": {
+    "title": "Retragreen AI Solutions",
+    "version": "2.0.0",
+    "author": "Retragreen Team",
+    "date": "2025-08-27",
+    "company": "Retragreen",
+    "logo": "https://page.gensparksite.com/v1/base64_upload/1caff34759ddb2bbcb787fffa13533c3",
+    "logoAlt": "Retragreen Logo"
+  },
+  
+  "theme": {
+    "primaryColor": "#3F6F29",
+    "secondaryColor": "#6FAF54",
+    "accentColor": "#264E10",
+    "lightBackground": "#D8E8C8",
+    "backgroundColor": "#FFFFFF",
+    "textColor": "#333333",
+    "cardBackground": "#FFFFFF",
+    "borderRadius": "12px",
+    "shadowStyle": "subtle",
+    "animationSpeed": "normal"
+  },
+  
+  "layout": {
+    "type": "vertical-scroll",
+    "maxWidth": "1200px",
+    "slideSpacing": "2rem",
+    "padding": {
+      "desktop": "2rem",
+      "tablet": "1.5rem",
+      "mobile": "1rem"
+    },
+    "showNavigation": true,
+    "showProgress": true,
+    "showSlideNumbers": true,
+    "enableKeyboardNav": true,
+    "enableSearch": true,
+    "enableFullscreen": true
+  },
+  
+  "components": {
+    "header": {
+      "enabled": true,
+      "sticky": true,
+      "height": "80px",
+      "showLogo": true,
+      "showTitle": true,
+      "showMenu": true
+    },
+    
+    "footer": {
+      "enabled": true,
+      "height": "60px",
+      "text": "© 2025 Retragreen - AI-Powered HVAC+ Solutions | ARBS 2025",
+      "links": [
+        {
+          "text": "Website",
+          "url": "https://retrageen.com.au",
+          "icon": "web"
+        },
+        {
+          "text": "Contact",
+          "url": "mailto:info@retrageen.com.au",
+          "icon": "email"
+        }
+      ]
+    },
+    
+    "navigation": {
+      "type": "dots",
+      "position": "right",
+      "showLabels": true,
+      "autoHide": false
+    },
+    
+    "slideTransitions": {
+      "type": "fade-slide",
+      "duration": 500,
+      "easing": "ease-out"
+    }
+  },
+  
+  "slides": [
+    {
+      "id": "slide-1",
+      "type": "hero",
+      "title": "What is Retragreen?",
+      "subtitle": "AI Software for Building Optimization",
+      "content": {
+        "text": "Revolutionary AI software that optimizes HVAC+ systems for maximum efficiency and savings.",
+        "bullets": [
+          "HVAC+ = Water + Airside, Zones + Critical Areas, Matrixed (multi-header) systems",
+          "Built for large buildings and campuses",
+          "Enterprise-grade AI optimization platform"
+        ]
+      },
+      "media": {
+        "type": "image",
+        "src": "https://page.gensparksite.com/v1/base64_upload/1caff34759ddb2bbcb787fffa13533c3",
+        "alt": "Retragreen Logo",
+        "position": "center"
+      },
+      "actions": [
+        {
+          "text": "Learn More",
+          "type": "primary",
+          "action": "next-slide"
+        },
+        {
+          "text": "Get Free Assessment",
+          "type": "secondary",
+          "action": "link",
+          "url": "#slide-6"
+        }
+      ],
+      "tags": ["intro", "overview"],
+      "animation": "fade-in",
+      "background": {
+        "type": "gradient",
+        "colors": ["#D8E8C8", "#FFFFFF"]
+      }
+    },
+    
+    {
+      "id": "slide-2",
+      "type": "stats",
+      "title": "What You Get",
+      "subtitle": "Proven Results & Immediate Impact",
+      "content": {
+        "text": "Transform your building's performance with measurable outcomes from day one.",
+        "stats": [
+          {
+            "value": "28%",
+            "label": "Average Energy Savings",
+            "icon": "energy",
+            "description": "Verified across deployments"
+          },
+          {
+            "value": "<12",
+            "label": "Months ROI",
+            "icon": "trending",
+            "description": "Fast return on investment"
+          },
+          {
+            "value": "$0",
+            "label": "Upfront Cost",
+            "icon": "money",
+            "description": "Zero capex required"
+          },
+          {
+            "value": "0",
+            "label": "Downtime",
+            "icon": "time",
+            "description": "No disruption to operations"
+          }
+        ]
+      },
+      "tags": ["benefits", "roi"],
+      "animation": "scale-up"
+    },
+    
+    {
+      "id": "slide-3",
+      "type": "feature",
+      "title": "Built for Operational Efficiency",
+      "subtitle": "Comprehensive System Optimization",
+      "content": {
+        "text": "Cutting-edge AI that reduces energy consumption, maintenance costs, and operational overhead.",
+        "features": [
+          {
+            "icon": "energy",
+            "title": "Energy Optimization",
+            "description": "Intelligent control reducing consumption by 28% average"
+          },
+          {
+            "icon": "shield",
+            "title": "Works with Existing BMS",
+            "description": "Seamless integration with your current plant and systems"
+          },
+          {
+            "icon": "alerts",
+            "title": "Smart Alarm Triage",
+            "description": "AI-powered alarm management and prioritization"
+          },
+          {
+            "icon": "insights",
+            "title": "Predictive Control",
+            "description": "Advanced algorithms anticipate and prevent issues"
+          },
+          {
+            "icon": "activity",
+            "title": "Zone Coordination",
+            "description": "Intelligent multi-zone optimization and balancing"
+          },
+          {
+            "icon": "trending",
+            "title": "Reduced People-Hours",
+            "description": "Automated optimization frees up your team"
+          }
+        ]
+      },
+      "tags": ["features", "technical"],
+      "animation": "slide-up"
+    },
+    
+    {
+      "id": "slide-4",
+      "type": "standard",
+      "title": "Where and Who",
+      "subtitle": "Proven Experience & Recognition",
+      "content": {
+        "text": "Trusted by leading organizations across Southeast Asia.",
+        "bullets": [
+          "🌏 Operating in Singapore & Malaysia",
+          "🔬 2 years intensive R&D and field validation",
+          "👥 Built by industry veterans: Alan Pears, David Roche, Ben Giles",
+          "🏆 One of 5 recipients: Singapore-Australia Green Economy Grant 2025",
+          "✅ Enterprise-ready with proven deployments"
+        ]
+      },
+      "media": {
+        "type": "chart",
+        "chartType": "coverage",
+        "data": {
+          "labels": ["Singapore", "Malaysia", "R&D Complete", "Grant Recipient", "Field Tested"],
+          "values": [100, 100, 100, 100, 100]
+        }
+      },
+      "tags": ["about", "credentials"],
+      "animation": "fade-in"
+    },
+    
+    {
+      "id": "slide-5",
+      "type": "demo",
+      "title": "Real-Time Intelligence",
+      "subtitle": "See Our AI in Action",
+      "content": {
+        "text": "Experience the power of Retragreen's intelligent monitoring and control systems.",
+        "embedUrl": "https://retragreen.com.au/demo-dashboard",
+        "embedHeight": "600px",
+        "embedOptions": {
+          "allowFullscreen": true,
+          "showControls": true
+        },
+        "demos": [
+          {
+            "title": "AI GPT Assistant",
+            "description": "Answers alarms and explains actions in real-time",
+            "icon": "chat"
+          },
+          {
+            "title": "Live Dashboard",
+            "description": "Monitor setpoints, savings, and zone coordination",
+            "icon": "dashboard"
+          }
+        ]
+      },
+      "fallback": {
+        "type": "image",
+        "src": "/images/dashboard-preview.png",
+        "alt": "Dashboard Preview"
+      },
+      "tags": ["demo", "dashboard"],
+      "animation": "slide-up"
+    },
+    
+    {
+      "id": "slide-6",
+      "type": "cta",
+      "title": "Your Free Assessment",
+      "subtitle": "5-Day Analytics Report - $2,495 Value",
+      "content": {
+        "text": "Get a comprehensive analysis of your building's optimization potential - completely free for ARBS attendees.",
+        "features": [
+          "✓ Complete savings potential analysis",
+          "✓ Sensor & equipment health check",
+          "✓ Detailed recommendations report",
+          "✓ ROI projections and timeline"
+        ],
+        "booth": {
+          "text": "Visit Booth 112, Hall 2",
+          "highlight": "FREE for ARBS attendees only"
+        }
+      },
+      "actions": [
+        {
+          "text": "Schedule Assessment",
+          "type": "primary",
+          "action": "link",
+          "url": "https://calendly.com/retragreen/assessment"
+        },
+        {
+          "text": "Email Us",
+          "type": "secondary",
+          "action": "link",
+          "url": "mailto:info@retrageen.com.au?subject=Free%20ARBS%20Assessment"
+        }
+      ],
+      "tags": ["contact", "cta", "assessment"],
+      "animation": "fade-in",
+      "background": {
+        "type": "gradient",
+        "colors": ["#D8E8C8", "#FFFFFF"]
+      }
+    }
+  ],
+  
+  "features": {
+    "selfCheck": {
+      "enabled": true,
+      "checkOnLoad": true,
+      "checkOnUpdate": true,
+      "validationRules": [
+        "validateSlideStructure",
+        "validateMediaSources",
+        "validateNavigation",
+        "validateTheme",
+        "validateAccessibility"
+      ]
+    },
+    
+    "microinteractions": {
+      "hoverEffects": true,
+      "clickFeedback": true,
+      "scrollAnimations": true,
+      "loadingStates": true,
+      "transitionEffects": true
+    },
+    
+    "accessibility": {
+      "ariaLabels": true,
+      "keyboardNav": true,
+      "screenReaderSupport": true,
+      "highContrast": false,
+      "reducedMotion": "respect-preference"
+    },
+    
+    "performance": {
+      "lazyLoadImages": true,
+      "preloadNextSlide": true,
+      "cacheAssets": true,
+      "optimizeAnimations": true
+    }
+  }
+}
