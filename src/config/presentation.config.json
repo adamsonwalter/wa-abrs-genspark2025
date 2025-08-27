@@ -238,7 +238,7 @@
       "subtitle": "See Our AI in Action",
       "content": {
         "text": "Experience the power of Retragreen's intelligent monitoring and control systems.",
-        "embedUrl": "https://retragreen.com.au/demo-dashboard",
+        "embedUrl": "https://www.rgdash.com.au:3002/home",
         "embedHeight": "600px",
         "embedOptions": {
           "allowFullscreen": true,
