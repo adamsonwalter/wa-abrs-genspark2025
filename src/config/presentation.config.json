@@ -331,7 +331,7 @@
       "subtitle": "Deep Insights & Predictive Control",
       "content": {
         "text": "Explore our comprehensive analytics platform that provides deep insights into system performance and predictive maintenance alerts.",
-        "embedUrl": "https://www.rgdash.com.au:3002/analytics",
+        "embedUrl": "https://rgzonemodel.netlify.app/",
         "embedHeight": "600px",
         "embedOptions": {
           "allowFullscreen": true,
