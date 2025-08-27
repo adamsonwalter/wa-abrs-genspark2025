@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { useConfig } from './context/ConfigContext';
@@ -34,6 +34,17 @@ function App() {
 
     return () => clearTimeout(timer);
   }, [validationStatus]);
+
+  // Navigation functions
+  const navigateToSlide = useCallback((index) => {
+    if (index >= 0 && index < config.slides.length) {
+      setCurrentSlide(index);
+      const slideElement = document.getElementById(`slide-${index}`);
+      if (slideElement) {
+        slideElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
+  }, [config.slides.length]);
 
   // Keyboard navigation
   useEffect(() => {
@@ -92,18 +103,7 @@ function App() {
 
     window.addEventListener('keydown', handleKeyPress);
     return () => window.removeEventListener('keydown', handleKeyPress);
-  }, [currentSlide, config.slides.length, config.layout.enableKeyboardNav, isFullscreen, showAdmin]);
-
-  // Navigation functions
-  const navigateToSlide = (index) => {
-    if (index >= 0 && index < config.slides.length) {
-      setCurrentSlide(index);
-      const slideElement = document.getElementById(`slide-${index}`);
-      if (slideElement) {
-        slideElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-    }
-  };
+  }, [currentSlide, config.slides.length, config.layout.enableKeyboardNav, isFullscreen, showAdmin, navigateToSlide]);
 
   const toggleFullscreen = () => {
     if (!document.fullscreenElement) {
