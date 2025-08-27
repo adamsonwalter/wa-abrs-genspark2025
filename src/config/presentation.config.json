@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "title": "Retragreen AI Solutions",
+    "title": "Retragreen Proptech\nHVAC+",
     "version": "2.0.0",
     "author": "Retragreen Team",
     "date": "2025-08-27",
@@ -85,14 +85,14 @@
     {
       "id": "slide-1",
       "type": "hero",
-      "title": "What is Retragreen?",
-      "subtitle": "AI Software for Building Optimization",
+      "title": "HVAC Opex Optimisation",
+      "subtitle": "We focus on reducing Opex",
       "content": {
         "text": "Revolutionary AI software that optimizes HVAC+ systems for maximum efficiency and savings.",
         "bullets": [
-          "HVAC+ = Water + Airside, Zones + Critical Areas, Matrixed (multi-header) systems",
-          "Built for large buildings and campuses",
-          "Enterprise-grade AI optimization platform"
+          "Energy",
+          "Maintenance",
+          "People"
         ]
       },
       "media": {
