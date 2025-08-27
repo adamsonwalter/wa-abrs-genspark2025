@@ -100,6 +100,11 @@ function HeroSlide({ slide, inView, isFullscreen }) {
                   src={media.src}
                   alt={media.alt || title}
                   className="relative w-full h-auto rounded-2xl shadow-2xl"
+                  onLoad={() => console.log(`Image loaded successfully: ${media.src}`)}
+                  onError={(e) => {
+                    console.error(`Failed to load image: ${media.src}`, e);
+                    e.target.style.display = 'none';
+                  }}
                 />
               </div>
             )}
